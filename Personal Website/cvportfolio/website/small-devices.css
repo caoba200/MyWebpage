@@ -1,0 +1,68 @@
+/*------------------------- General Body-------------------------*/
+body {
+    background-image: url("background.jpg");
+}
+
+/*------------------------ Title --------------------------------*/
+header {
+    border: 1% solid #800000;
+    padding: 2%;
+    margin: 2%;
+    background-color: #800000;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    font-size: 100%;
+    color: white;
+    clear:both;
+}
+
+/*----------------------- Profile Picture -----------------------*/
+img {
+    width: 100px;
+    height: 100px;
+}
+
+/*---------------------- Main Body ------------------------------*/
+section,aside {
+    border: 1% solid #800000;
+    padding: 2%;
+    margin: 2%;
+    background-color: #800000;
+    font-family: monospace;
+    font-size: 150%;
+    color: white;
+}
+
+
+/*--------------------- Main Body - Table------------------------*/
+#table_sample {
+    border: 1% solid white;
+}
+
+/*--------------------- Validation Section ----------------------*/
+footer {
+	position: relative;
+	bottom: 0;
+    border: 1% solid #800000;
+    padding: 2%;
+    margin: 2%;
+    background-color: #800000;
+    font-size: 150%
+    color: white;
+    float: bottom;
+    clear:both;
+}
+
+/*--------------------- Validation Section - Link format---------*/
+a:link {
+	color: #0066ff;
+}
+a:visited {
+	color: #1a0000;
+}
+a:hover {
+	color: #ffffff;
+}
+a:active {
+	color: #00ff00;
+}

@@ -1,0 +1,18 @@
+<?php
+
+// Receive input value 'q' from $_POST in a variable $q
+
+// Connect to MySQL and save connection in a variable $con
+// Check for error in connection
+
+// Create string variable $sql with SQL querying users
+// Use LIKE in the user's input $q
+// Execute query in MySQL using "$con->query($sql)" and save in $result
+
+// Use mysqli_fetch_array to iterate through $result
+// Append each row to a array $allRows
+
+// Echo $allRows back to the client using function json_encode
+
+// Close connection
+?>
