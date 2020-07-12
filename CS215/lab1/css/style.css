@@ -1,0 +1,19 @@
+
+
+.title {
+    color: blue;
+}
+#specialTitle {
+    color: brown;
+}
+
+div {
+    border: 1px solid;
+    background-color: deepskyblue;
+    text-align: center;
+    margin: 1% 10% 1% 10%;
+    padding: 5% 5% 5% 5%;
+    border-radius: 25px;
+    color: white;
+}
+

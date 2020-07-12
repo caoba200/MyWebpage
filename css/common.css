@@ -1,21 +1,8 @@
-/* Styling for feature icons and text */
-.feature-icons {
-    font-size: 100px;
-    display: table;
-    margin: auto;
+html {
+  scroll-behavior: smooth;
 }
-
-.col-lg-4 h2, p {
-    text-align: center;
-}
-
-.feature-btn {
-    background-color: white;
-    color: #000000;
-    border: 2px solid #000000;
-    border-radius: 25px;
-    transition-duration: 0.4s;
-}
-.feature-btn:hover {
-    background-color: #bfbfbf;
+body {
+    background-image: url('/resources/images/background.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
 }
