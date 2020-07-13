@@ -2,7 +2,8 @@ html {
   scroll-behavior: smooth;
 }
 body {
-    background-image: url('/resources/images/background.jpg');
+    background-image: url('../resources/images/background.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+    overflow-x: hidden;
 }

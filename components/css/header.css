@@ -1,12 +1,13 @@
 /* Styling for the header */
 .header {
-    background-image: url('/resources/images/palace.png');
+    background-image: url('../../resources/images/palace.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     width: 100%;
     height: 100vh;
     /*padding-top: 62.41%; */
+    position: relative;
 }
 .title-container {
     text-align: center;
@@ -14,18 +15,27 @@
     border: 1px solid #ffffff;
     background-color: #ffffff;
     padding: 0.5% 5% 0.5% 5%;
-    margin: 27% 0 0 30%;
+    /* margin: 27% 0 0 30%; */
     box-shadow: 5px 10px rgba(128, 128, 128, 0.5);
     border-radius: 25px;
     animation-name: bottom;
     animation-duration: 2s;
     animation-fill-mode: forwards;
+
+
+    width: 50%;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%, 0);
 }
 @keyframes bottom {
     from {
         margin: 80% 0 0 30%;
     }
     to {
-        margin: 27% 0 0 30%;
+        width: 50%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0)
     }
 }

@@ -1,0 +1,30 @@
+@keyframes bottom {
+    from {
+        margin: 80% 0 0 30%;
+    }
+    to {
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 0)
+    }
+}
+.title-container h1 {
+    font-size: 22px;
+}
+
+.social-media-icons, .copyright, .footer-nav {
+    text-align: center;
+}
+
+.footer-nav a {
+    float: none;
+    display: block;
+}
+
+/* Navigation bar */
+.sidenav a {
+    padding: 0.5%;
+    font-size: 15px;
+}
+
