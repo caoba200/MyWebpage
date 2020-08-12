@@ -32,3 +32,8 @@ body {
     background-color: #ffffff;
     color: #000000;
 }
+
+.container-fluid {
+    margin: 1% 10%;
+    padding: 1%;
+}

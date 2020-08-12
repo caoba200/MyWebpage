@@ -5,13 +5,12 @@
         <!-- Bootstrap Setup -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
         <!-- Fontawesome -->
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
 
+        <link rel="icon" type="image/png" href="../../favicon/homepage.png" />
         <title>Bootstrap Form</title>
     </head>
 
@@ -20,12 +19,13 @@
         <p>This is a sample form using Bootstrap framework and icons in Fontawesome</p>
         <hr>
 
-        <form>
+        <form id='signup'>
 
           <div class="form-group row">
-            <label for="staticEmail" class="col-sm-2 col-form-label"> <i class="fas fa-envelope"></i> Email</label>
+            <label for="email" class="col-sm-2 col-form-label"> <i class="fas fa-envelope"></i> Email</label>
             <div class="col-sm-6">
-              <input type="text" class="form-control" id="staticEmail">
+              <input type="text" class="form-control" id="email">
+              <div class="validation-box alert" id="email-v"></div>
             </div>
           </div>
 
@@ -33,26 +33,33 @@
             <label for="username" class="col-sm-2 col-form-label"> <i class="fas fa-user"></i> Username</label>
             <div class="col-sm-6">
               <input type="text" class="form-control" id="username">
+              <div class="validation-box alert" id="username-v"></div>
             </div>
           </div>
 
           <div class="form-group row">
-            <label for="inputPassword" class="col-sm-2 col-form-label"><i class="fas fa-key"></i> Password</label>
+            <label for="password" class="col-sm-2 col-form-label"><i class="fas fa-key"></i> Password</label>
             <div class="col-sm-6">
-              <input type="password" class="form-control" id="inputPassword">
+              <input type="password" class="form-control" id="password">
+              <div class="validation-box alert" id="password-v"></div>
             </div>
           </div>
 
           <div class="form-group row">
-            <label for="confirmpw" class="col-sm-2 col-form-label"> <i class="fas fa-unlock-alt"></i> Confirm Password</label>
+            <label for="passwordr" class="col-sm-2 col-form-label"> <i class="fas fa-unlock-alt"></i> Confirm Password</label>
             <div class="col-sm-6">
-              <input type="password" class="form-control" id="confirm">
+              <input type="password" class="form-control" id="passwordr">
+              <div class="validation-box alert" id="passwordr-v"></div>
             </div>
           </div>
 
           <button type="submit" class="btn btn-primary"><i class="fas fa-sign-in-alt"></i> Sign Up</button>
 
         </form>
+        <div id="info-box"></div>
+
+        <script type="text/javascript" src="js/form.js"></script>
+        <script type="text/javascript" src="js/eventHandlers.js"></script>
 
     </body>
 
